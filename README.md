@@ -3,7 +3,7 @@ task 1 : shooting game
 - actor move randomly left and right - DONE
 - shootable actor jump every few seconds - DONE
 
-- the map for task 1 is in content/task1
+- the map for task 1 is in content/task1 folder
 
 
 task 2 : floor is lava (moving platforms)
@@ -16,6 +16,7 @@ task 2 : floor is lava (moving platforms)
 
 - end platform is the gold platform in the middle with X mark on it
 
+- task 2 is the default level loaded when project is loaded
 
 task 3 : floor is lava upgrated (rotating actors)
 
@@ -37,3 +38,6 @@ the end platform
 
 - the platform that does half orbit back and forth is the copper platform near the stairs 
 to end platform
+
+
+- task 3 map is in World'/Game/ThirdPersonCPP/Maps/task3.task3'
