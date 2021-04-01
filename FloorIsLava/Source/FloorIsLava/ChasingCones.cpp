@@ -3,7 +3,6 @@
 
 #include "ChasingCones.h"
 
-
 // Sets default values
 AChasingCones::AChasingCones()
 {
@@ -76,7 +75,7 @@ void AChasingCones::Tick(float DeltaTime)
 			float Degrees2 = FMath::RadiansToDegrees(Rad2);
 
 
-			FRotator Rotator(Degrees, Degrees2, 0);
+			FRotator Rotator(Degrees-90, Degrees2, 0);
 			FQuat RotationQuaternion = FQuat(Rotator);
 			SetActorRotation(RotationQuaternion);
 
